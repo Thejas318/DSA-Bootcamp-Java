@@ -30,7 +30,7 @@ public class ObjectDemo {
 
     @Override
     public boolean equals(Object obj) {
-        return this.num == ((ObjectDemo)obj).num;
+        return this.num == ((ObjectDemo) obj).num;
     }
 
     @Override
@@ -44,6 +44,7 @@ public class ObjectDemo {
 
         if (obj1 == obj2) {
             System.out.println("obj1 is equal to obj2");
+            System.out.println("hello");
         }
 
         if (obj1.equals(obj2)) {
@@ -55,5 +56,6 @@ public class ObjectDemo {
 //        System.out.println(obj.hashCode());
 //        System.out.println(obj2.hashCode());
     }
+
 
 }
