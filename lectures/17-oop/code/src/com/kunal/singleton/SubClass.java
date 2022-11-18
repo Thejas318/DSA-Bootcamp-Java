@@ -13,7 +13,7 @@ public class SubClass extends A {
 
     public static void main(String[] args) {
         A obj = new A(45, "Kunal Kushwaha");
-//        int n = obj.num;
+//        int n = obj.num;                   //here obj cannot access num bcoz num is protected and "protected variables" in super class can only be accessed by ref variable of type subclass when we are working in subclass.
     }
 }
 
